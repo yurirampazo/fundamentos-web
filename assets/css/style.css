@@ -3,8 +3,16 @@
 font-size: 20px;
 }
 .center {
-   font-size: 15px; 
    text-align: center;
+}
+
+.highlight {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.justify {
+    text-align: justify;
 }
 
 .container {
@@ -13,6 +21,46 @@ font-size: 20px;
     justify-content: center;
     align-items: center;
 }
+#menu li {
+    display: inline;
+    padding: 15px;
+    /*--text-decoration: none;  -> Tem que estar dentro do a */ 
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover {
+
+    color: rgb(209, 202, 219);
+}
+.p-30 {
+
+    padding: 30px;
+}
+
+.br {
+    border-radius: 15%;
+}
+
+.wh {
+    height: 300px;
+    width: 300px;
+}
+.tm-social {
+    width: 30px;
+    height: 30px;
+
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
 
 
 /* Estilos da página contato.hmtl*/
+
+.ml-50 {
+    margin-left: 50px;
+}
