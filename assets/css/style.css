@@ -37,7 +37,7 @@ font-size: 20px;
     color: rgb(209, 202, 219);
 }
 .p-30 {
-
+    font-size: 20px;
     padding: 30px;
 }
 
@@ -58,9 +58,17 @@ font-size: 20px;
     margin-bottom: 40px;
 }
 
+.bc {
+    background-color: rgba(185, 187, 78, 0.397)
+    ;
+}
 
 /* Estilos da página contato.hmtl*/
 
 .ml-50 {
     margin-left: 50px;
+}
+.bc2 {
+    background-color: rgba(65, 163, 170, 0.363)
+    ;
 }
